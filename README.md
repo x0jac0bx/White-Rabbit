@@ -35,7 +35,6 @@ Radios: 2× NRF24L01 (or NRF24L01+PA+LNA for extended range)
 
 Note: NRF24L01 modules run on 3.3V — do not connect to 5V or you will damage them. Adding a 10µF decoupling capacitor across VCC/GND on each module is strongly recommended for stability.
 
-
 🚀 Getting Started
 Prerequisites
 
@@ -49,19 +48,8 @@ White - Device waiting
 Blue - BlE/Bluetooth
 Red - 2.4-WiFi
 
-Installation
-
-Clone this repository:
-
-bash   git clone https://github.com/x0jacob0x/WhiteRabbit.git
-   cd WhiteRabbit
-
-Install the RF24 library via Arduino Library Manager or PlatformIO.
-Open the project, select ESP32C6 Dev Module as your board, and flash.
-
-
 📡 How It Works
-WhiteRabbit uses both NRF24L01 modules to rapidly hop across Bluetooth channels (2402–2480 MHz) and transmit noise, disrupting Bluetooth pairing and communication in the vicinity. The dual-radio configuration allows for wider simultaneous channel coverage compared to a single-module setup.
+WhiteRabbit uses both NRF24L01 modules to rapidly hop across Bluetooth/WiFi channels and transmit noise, disrupting Bluetooth/WiFi communication in the vicinity. 
 
 🙏 Credits & Acknowledgements
 This project would not exist without the foundational work of:
