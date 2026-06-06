@@ -13,6 +13,7 @@
 #include <SPI.h>
 #include "esp_bt.h"
 #include "esp_wifi.h"
+#include <Adafruit_NeoPixel.h>
 
 constexpr int SPI_SPEED = 8000000;
 
@@ -36,9 +37,12 @@ RF24 radio2(CE2_PIN, CSN2_PIN, SPI_SPEED);
 
 int bluetooth_channels[] = {32, 34, 46, 48, 50, 52, 0, 1, 2, 4, 6, 8, 22, 24, 26, 28, 30, 74, 76, 78, 80};
 
-void configureRadio(RF24 &radio, int channel, SPIClass *spi);
+#define RGB_LED_PIN 8
+#define NUM_LEDS 1
 
-void jamBluetooth();
+Adafruit_NeoPixel rgb(NUM_LEDS, RGB_LED_PIN, NEO_GRB + NEO_KHZ800);
+
+void configureRadio(RF24 &radio, int channel, SPIClass *spi);
 
 void setup() {
     Serial.begin(115200);
@@ -54,6 +58,11 @@ void setup() {
 
     configureRadio(radio1, bluetooth_channels[0], spiFSPI);
     configureRadio(radio2, bluetooth_channels[0], spiFSPI);
+
+    rgb.begin();
+    rgb.setBrightness(50);
+    rgb.setPixelColor(0, rgb.Color(255, 255, 255));
+    rgb.show();
 }
 
 void configureRadio(RF24 &radio, int channel, SPIClass *spi) {
