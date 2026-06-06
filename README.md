@@ -1,6 +1,8 @@
 
 
-▶ Support me on Patreon [patreon.com/cifertech](https://www.patreon.com/cifertech)
+▶ CiferTech (Orignal Project) Links:
+
+Patreon - [patreon.com/cifertech](https://www.patreon.com/cifertech)
 
 CiferTech - [@twitter](https://twitter.com/techcifer) - CiferTech@gmali.com
 
