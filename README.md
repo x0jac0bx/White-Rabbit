@@ -1,5 +1,8 @@
 🐇 WhiteRabbit — Bluetooth Jammer
 
+![HackRF-WhiteRabbit](assets/1134.jpg)
+![HackRF-WhiteRabbit1](assets/1136.jpg)
+
 ESP32-C6 + Dual NRF24L01 RF Disruption Tool
 Built by x0jacob0x | Based on RF-Clown by CiferTech
 
