@@ -1,28 +1,30 @@
+
+
 <div align="center">
 
-  <img src="https://user-images.githubusercontent.com/62047147/195847997-97553030-3b79-4643-9f2c-1f04bba6b989.png" alt="logo" width="100" height="auto" />
-  
-  <h1> RF-Clown </h1>
-  <p> A fully open-source BLE and Bluetooth jammer </p>
+  <img src="https://github.com/user-attachments/assets/fee234e0-8f29-4b17-9f57-3d14bb84627d" alt="RF-Clown Banner" width="100%"/>
 
+  <br/>
+  <br/>
 
-<!-- Badges -->
-<a href="https://github.com/cifertech/nrfbox" title="Go to GitHub repo"><img src="https://img.shields.io/static/v1?label=cifertech&message=RF-Clown&color=purple&logo=github" alt="cifertech - RF-Clown"></a>
-<a href="https://github.com/cifertech/nrfbox"><img src="https://img.shields.io/github/stars/cifertech/RF-Clown?style=social" alt="stars - RF-Clown"></a>
-<a href="https://github.com/cifertech/nrfbox"><img src="https://img.shields.io/github/forks/cifertech/RF-Clown?style=social" alt="forks - RF-Clown"></a>
+  <p align="center">
+    <a href="https://github.com/cifertech/RF-Clown"><img src="https://img.shields.io/static/v1?label=cifertech&message=RF-Clown&color=76c442&logo=github"/></a>
+    <a href="https://github.com/cifertech/RF-Clown"><img src="https://img.shields.io/github/stars/cifertech/RF-Clown?style=social"/></a>
+    <a href="https://github.com/cifertech/RF-Clown"><img src="https://img.shields.io/github/forks/cifertech/RF-Clown?style=social"/></a>
+    <img src="https://img.shields.io/badge/BLE-Bluetooth%20Jammer-76c442"/>
+    <img src="https://img.shields.io/badge/license-MIT-76c442"/>
+  </p>
 
-   
-<h4>
-    <a href="https://twitter.com/techcifer">TWITTER</a>
-  <span> · </span>
-    <a href="https://www.instagram.com/cifertech/">INSTAGRAM</a>
-  <span> · </span>
-    <a href="https://www.youtube.com/@techcifer">YOUTUBE</a>
-  <span> · </span>
-    <a href="https://cifertech.net/">WEBSITE</a>
-  </h4>
+  <p align="center">
+    <a href="https://twitter.com/techcifer"><img src="https://img.shields.io/badge/Twitter-76c442?logo=x&logoColor=black"/></a>
+    <a href="https://www.instagram.com/cifertech/"><img src="https://img.shields.io/badge/Instagram-76c442?logo=instagram&logoColor=black"/></a>
+    <a href="https://www.youtube.com/@techcifer"><img src="https://img.shields.io/badge/YouTube-76c442?logo=youtube&logoColor=black"/></a>
+    <a href="https://cifertech.net/"><img src="https://img.shields.io/badge/Website-76c442?logo=googlechrome&logoColor=black"/></a>
+  </p>
+
 </div>
-<br/>
+
+<div>&nbsp;</div>
 
 ## 📖 Explore the Full Documentation
 
@@ -98,20 +100,20 @@ If you prefer not to upload the code manually or encounter errors during compila
 ### Step 4: Verify the Upload
 Once the upload is completed, the tool will confirm a successful flash. You can now restart your ESP32 and run the firmware.
 
-&nbsp;
+
 ### Arduino IDE Settings:
 If you want to upload the sketch code to the ESP32, use the following settings in the Tools menu:
 - Built using ESP32 Board Version 1.0.5
 
 
-<div>&nbsp;</div>
+
 
 <!-- License -->
 ## :warning: License
 
 Distributed under the MIT License. See LICENSE.txt for more information.
 
-<div>&nbsp;</div>
+
 
 <!-- Contact -->
 ## :handshake: Contact
