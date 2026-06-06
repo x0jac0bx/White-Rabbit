@@ -30,7 +30,10 @@ Radios: 2× NRF24L01 (or NRF24L01+PA+LNA for extended range)
 | SCK    | GPIO6 shared | GPIO6 shared |
 | MOSI   | GPIO7 shared | GPIO7 shared |
 | MISO   | GPIO2 shared | GPIO2 shared |
-
+<p align="center">
+  <img src="assets/image.png"/>
+  <img src="assets/nrf24l01_arduino_nano_480x480.webp"
+</p>
 
 Note: NRF24L01 modules run on 3.3V — do not connect to 5V or you will damage them. Adding a 10µF decoupling capacitor across VCC/GND on each module is strongly recommended for stability.
 
