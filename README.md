@@ -22,8 +22,16 @@ Radios: 2× NRF24L01 (or NRF24L01+PA+LNA for extended range)
 
 
 🔌 Wiring / Pin Map
-Both NRF24L01 modules share the same SPI bus (SCK, MOSI, MISO) but have individual CE and CSN pins for independent control.
-SignalRadio 1Radio 2VCC3V3 shared3V3 sharedGNDGND sharedGND sharedCEGPIO10GPIO11CSNGPIO17GPIO16SCKGPIO6 sharedGPIO6 sharedMOSIGPIO7 sharedGPIO7 sharedMISOGPIO2 sharedGPIO2 shared
+| Signal |      Radio 1 |      Radio 2 |
+| ------ | -----------: | -----------: |
+| VCC    |   3V3 shared |   3V3 shared |
+| GND    |   GND shared |   GND shared |
+| CE     |       GPIO10 |       GPIO11 |
+| CSN    |       GPIO17 |       GPIO16 |
+| SCK    | GPIO6 shared | GPIO6 shared |
+| MOSI   | GPIO7 shared | GPIO7 shared |
+| MISO   | GPIO2 shared | GPIO2 shared |
+
 
 Note: NRF24L01 modules run on 3.3V — do not connect to 5V or you will damage them. Adding a 10µF decoupling capacitor across VCC/GND on each module is strongly recommended for stability.
 
@@ -56,6 +64,3 @@ This project would not exist without the foundational work of:
 
 👤 Author
 x0jacob0x
-
-📄 License
-This project follows the same open spirit as RF-Clown. Please credit both x0jacob0x and CiferTech if you build upon this work.
