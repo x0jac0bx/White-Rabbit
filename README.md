@@ -1,4 +1,4 @@
-🐇 WhiteRabbit — Bluetooth Jammer
+🐇 WhiteRabbit — Bluetooth/WiFi Jammer
 
 <p align="center">
   <img src="assets/1134.jpg" width="45%"/>
