@@ -46,7 +46,7 @@ How To Use:
 Press Boot to switch modes
 White - Device waiting
 Blue - BlE/Bluetooth
-Red - 2.4-WiFi
+Red - WiFi
 
 📡 How It Works
 WhiteRabbit uses both NRF24L01 modules to rapidly hop across Bluetooth/WiFi channels and transmit noise, disrupting Bluetooth/WiFi communication in the vicinity. 
