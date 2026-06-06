@@ -13,7 +13,7 @@ Built by x0jacob0x | Based on RF-Clown by CiferTech
 This project is intended for educational and research purposes only. Jamming wireless signals may be illegal in your country or region. The author takes no responsibility for misuse. Always operate within the bounds of your local laws.
 
 📖 About
-WhiteRabbit is a Bluetooth/2.4-WiFi jammer built on the ESP32-C6-WROOM-1 using two NRF24L01 radio modules running simultaneously to maximize 2.4 GHz channel disruption. This project is heavily inspired by and based upon the excellent RF-Clown project by CiferTech — huge thanks to them for the original work.
+WhiteRabbit is a Bluetooth/WiFi jammer built on the ESP32-C6-WROOM-1 using two NRF24L01 radio modules running simultaneously to maximize 2.4 GHz channel disruption. This project is heavily inspired by and based upon the excellent RF-Clown project by CiferTech — huge thanks to them for the original work.
 
 🛠️ Hardware
 
