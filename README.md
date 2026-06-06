@@ -1,8 +1,7 @@
 🐇 WhiteRabbit — Bluetooth/WiFi Jammer
 
 <p align="center">
-  <img src="assets/1134.jpg" width="45%"/>
-  <img src="assets/1136.jpg" width="45%"/>
+  <img src="300d6ac6-40e0-40f9-b39a-ccb98a75bac7.png"/>
 </p>
 
 ESP32-C6 + Dual NRF24L01 RF Disruption Tool
