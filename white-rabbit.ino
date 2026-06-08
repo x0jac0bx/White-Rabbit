@@ -1,5 +1,5 @@
 /*
-  Project: WhiteRabbit Bluetooth Jammer
+  Project: WhiteRabbit Bluetooth/WiFi Jammer
   Creator: x0jacob0x
 
   Special thanks to the RF-Clown project
