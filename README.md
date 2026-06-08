@@ -37,14 +37,7 @@ Radios: 2× NRF24L01 (or NRF24L01+PA+LNA for extended range)
 
 Note: NRF24L01 modules run on 3.3V — do not connect to 5V or you will damage them. Adding a 10µF decoupling capacitor across VCC/GND on each module is strongly recommended for stability.
 
-🚀 Getting Started
-Prerequisites
-
-Arduino IDE or PlatformIO
-ESP32 board support package installed
-RF24 Library by TMRh20
-
-How To Use:
+🚀 How To Use:
 Press Boot to switch modes
 White - Device waiting
 Blue - BlE/Bluetooth
