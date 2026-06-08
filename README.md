@@ -4,12 +4,16 @@
   <img src="assets/fdfb7f12-c222-4d89-8179-d8ac8eb2fd7a.png"/>
 </p>
 
-ESP32-C6 + Dual NRF24L01 RF Disruption Tool
-Built by x0jacob0x | Based on RF-Clown by CiferTech
+ESP32-C6 + Dual NRF24L01 RF Disruption Tool | Based on RF-Clown by CiferTech
 
 
-⚠️ Disclaimer
-This project is intended for educational and research purposes only. Jamming wireless signals may be illegal in your country or region. The author takes no responsibility for misuse. Always operate within the bounds of your local laws.
+⚠️ Legal & Safety Disclaimer
+
+This project is provided strictly for educational, research, and lawful laboratory use only. It is intended to help users understand wireless communication concepts, RF behavior, embedded systems, and defensive security research in controlled environments.
+
+Do not use this project to interfere with, disrupt, degrade, or deny service to any wireless network, device, or communication system that you do not own or have explicit authorization to test. Unauthorized interference with WiFi, Bluetooth, cellular, GPS, emergency communications, or other radio services may be illegal and can result in severe civil or criminal penalties.
+
+The author does not encourage, support, or condone illegal jamming, unauthorized signal interference, or misuse of this project. By using any information or code from this repository, you accept full responsibility for ensuring your actions comply with all applicable local, state, federal, and international laws and regulations.
 
 📖 About
 WhiteRabbit is a Bluetooth/WiFi Disruption Tool built on the ESP32-C6-WROOM-1 using two NRF24L01 radio modules running simultaneously to maximize 2.4 GHz channel disruption. This project is heavily inspired by and based upon the excellent RF-Clown project by CiferTech — huge thanks to them for the original work.
